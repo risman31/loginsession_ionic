@@ -1,0 +1,13 @@
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+  > button {
+    height: 40px;
+    width: 40em;
+    border-radius: 10px;
+    background: linear-gradient(rgb(75, 136, 212), rgb(12, 90, 185));
+    color: white;
+  }
+}

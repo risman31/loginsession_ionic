@@ -1,0 +1,26 @@
+<ion-content>
+  <div>
+    <center><img src="https://th.bing.com/th/id/R.8f185ac6c4a78763aa31acf73ee3e46b?rik=X7w93PUB4j3AXg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_568656.png&ehk=YMUL5OvijifwVr2xWFpqoEf4STb07PZwQdnl0ispWMc%3d&risl=&pid=ImgRaw&r=0"></center>
+  </div>
+
+  <div class="title">
+    <h3>Login</h3>
+  </div>
+ 
+    <ion-item class="wrap-input">
+      <ion-input [(ngModel)]="username" type="text" placeholder="Username"></ion-input>
+    </ion-item>
+  
+    <ion-item class="wrap-input">
+      <ion-input [(ngModel)]="password" type="password" placeholder="Password"></ion-input>
+    </ion-item>
+
+    <div class="reg">
+      <h5>Doesn't have account?<b class="btn" (click)="register()"><u> Register </u></b></h5>
+    </div>
+
+    <div class="container-form-btn">
+      <button (click)="login()" class="form-btn custom-font"><b>LOGIN</b></button>
+    </div>
+    
+  </ion-content>

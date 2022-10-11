@@ -1,0 +1,51 @@
+
+.custom-font {
+  font-family: 'Consolas', sans-serif;
+}
+
+ion-content {  
+
+  .container-form-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .login {
+    text-align: center;
+    h3 {
+      font-family: "Segoe UI";
+      font-size: 5pt;
+    }
+    h5 {
+      font-family: "Segoe UI";
+    }
+  }
+
+  .form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 42px;
+    background-color: #394752;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 5px;
+    transition: all 0.4s;
+    box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.5);
+  }
+
+  .form-btn:hover {
+    background-color: #28333b;
+    box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.8);
+  }
+  
+  .btn {    
+    font-size: 18px;
+    color: #0b50ff;
+    text-transform: uppercase;
+  }
+}
